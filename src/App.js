@@ -21,6 +21,7 @@ function App() {
       <MainTitle>styled components</MainTitle>
       <Button href="https://google.com">Go to google</Button>
       <Input />
+      <HeadingSec>Roshan</HeadingSec>
     </div>
   );
 }
