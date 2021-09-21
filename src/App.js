@@ -11,6 +11,10 @@ const Button = styled.a`
 const Input = styled.input`
   border: none;
 `;
+const HeadingSec = styled.header`
+  background: orange;
+  height: 5rem;
+`;
 function App() {
   return (
     <div>
