@@ -5,13 +5,16 @@ const MainTitle = styled.h1`
   text-transform: capitalize;
   color: aliceblue;
 `;
-
+const Button = styled.a`
+  color: orange;
+`;
 function App() {
   return (
     <div>
-<MainTitle>styled components</MainTitle>
+      <MainTitle>styled components</MainTitle>
+      <Button href="https://google.com">Go to google</Button>
     </div>
-  )
+  );
 }
 
 export default App;
