@@ -8,11 +8,15 @@ const MainTitle = styled.h1`
 const Button = styled.a`
   color: orange;
 `;
+const Input = styled.input`
+  border: none;
+`;
 function App() {
   return (
     <div>
       <MainTitle>styled components</MainTitle>
       <Button href="https://google.com">Go to google</Button>
+      <Input />
     </div>
   );
 }
