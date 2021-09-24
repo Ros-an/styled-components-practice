@@ -26,6 +26,7 @@ function App() {
       <Input />
       <HeadingSec>Roshan</HeadingSec>
       <Letter>Roshan</Letter>
+      Hello my name is roshn
     </div>
   );
 }
