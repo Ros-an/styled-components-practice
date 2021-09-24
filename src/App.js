@@ -18,9 +18,6 @@ const HeadingSec = styled.header`
 const Letter = styled.span`
   color: orange;
 `;
-const Branch1ka2 = styled.div`
-  color: green;
-`;
 
 const Branch1ka1 = styled.article`
   height: 5rem;
@@ -34,9 +31,6 @@ function App() {
       <Input />
       <HeadingSec>Roshan</HeadingSec>
       <Letter>Roshan</Letter>
-      <Branch1ka2>This is branch 1 ka 2</Branch1ka2>
-      <Branch1ka1>This is branch 1 ka sub branch 1</Branch1ka1>
-      Hello my name is roshn
     </div>
   );
 }
