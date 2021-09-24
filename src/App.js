@@ -15,6 +15,9 @@ const HeadingSec = styled.header`
   background: orange;
   height: 5rem;
 `;
+const Letter = styled.span`
+  color: orange;
+`;
 function App() {
   return (
     <div>
@@ -22,6 +25,7 @@ function App() {
       <Button href="https://google.com">Go to google</Button>
       <Input />
       <HeadingSec>Roshan</HeadingSec>
+      <Letter>Roshan</Letter>
     </div>
   );
 }
