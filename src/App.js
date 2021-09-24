@@ -18,10 +18,17 @@ const HeadingSec = styled.header`
 const Letter = styled.span`
   color: orange;
 `;
+<<<<<<< HEAD
 const Branch1ka2 = styled.div`
   color: green;
 `;
 
+=======
+const Branch1ka1 = styled.article`
+  height: 5rem;
+  background: blue;
+`;
+>>>>>>> development-1.1
 function App() {
   return (
     <div>
@@ -30,7 +37,11 @@ function App() {
       <Input />
       <HeadingSec>Roshan</HeadingSec>
       <Letter>Roshan</Letter>
+<<<<<<< HEAD
       <Branch1ka2>This is branch 1 ka 2</Branch1ka2>
+=======
+      <Branch1ka1>This is branch 1 ka sub branch 1</Branch1ka1>
+>>>>>>> development-1.1
       Hello my name is roshn
     </div>
   );
