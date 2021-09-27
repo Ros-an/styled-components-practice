@@ -9,9 +9,9 @@ const MainTitle = styled.h1`
 function App() {
   return (
     <div>
-<MainTitle>styled components</MainTitle>
+      <MainTitle>styled components</MainTitle>
     </div>
-  )
+  );
 }
 
 export default App;
